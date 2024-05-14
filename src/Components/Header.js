@@ -19,7 +19,7 @@ export default class MainPage extends Component {
       <div>
         <nav className="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
           <div className="container">
-            <a className="navbar-brand" href={process.env.PUBLIC_URL + "/"}>
+            <a className="navbar-brand" href="/">
               <img src={process.env.PUBLIC_URL + "/logoR2.png"} alt="Rick and Morty" width="50" height="50" />
             </a>
             <button className="navbar-toggler" type="button" onClick={this.toggle} aria-controls="navbarNav" aria-expanded={this.state.isOpen ? "true" : "false"} aria-label="Toggle navigation">
@@ -28,20 +28,20 @@ export default class MainPage extends Component {
             <div className={`${this.state.isOpen ? 'show' : ''} collapse navbar-collapse`} id="navbarNav">
               <ul className="navbar-nav me-auto">
                 <li className="nav-item">
-                  <a className="nav-link" href={process.env.PUBLIC_URL + "/location"}>Locations</a>
+                  <a className="nav-link" href="/location/">Locations</a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href={process.env.PUBLIC_URL + "/character"}>Characters</a>
+                  <a className="nav-link" href="/character/">Characters</a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href={process.env.PUBLIC_URL + "/episode"}>Episodes</a>
+                  <a className="nav-link" href="/episode/">Episodes</a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href={process.env.PUBLIC_URL + "/add-location"}>Custom Location</a>
+                  <a className="nav-link" href="/add-location/">Custom Location</a>
                 </li>
               </ul>
               <span className="navbar-text">
-                <a className="nav-link" href="https://github.com/aladino24/mostrans-test-case">GitHub</a>
+              <a className="nav-link" href="https://github.com/aladino24/mostrans-test-case">GitHub</a>
               </span>
             </div>
           </div>

@@ -18,7 +18,7 @@ export default class App extends Component {
   render() {
     return (
       <div className="App">
-        <Router basename='/mostrans-test-case'>
+        <Router>
           <div className="p-5">
             <Header />
           </div>
@@ -46,3 +46,4 @@ export default class App extends Component {
     );
   }
 }
+
