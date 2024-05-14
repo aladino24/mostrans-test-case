@@ -2,7 +2,7 @@
   "name": "mostrans-test-case",
   "version": "0.1.0",
   "private": true,
-  "homepage": "./mostrans-test-case",
+  "homepage": ".",
   "dependencies": {
     "@apollo/client": "^3.10.3",
     "@fortawesome/free-brands-svg-icons": "^6.5.2",
