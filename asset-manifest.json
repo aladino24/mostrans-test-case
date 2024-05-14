@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/mostrans-test-case/static/css/main.50052f07.css",
-    "main.js": "/mostrans-test-case/static/js/main.bb593e29.js",
+    "main.js": "/mostrans-test-case/static/js/main.a9bf1a0e.js",
     "index.html": "/mostrans-test-case/index.html",
     "main.50052f07.css.map": "/mostrans-test-case/static/css/main.50052f07.css.map",
-    "main.bb593e29.js.map": "/mostrans-test-case/static/js/main.bb593e29.js.map"
+    "main.a9bf1a0e.js.map": "/mostrans-test-case/static/js/main.a9bf1a0e.js.map"
   },
   "entrypoints": [
     "static/css/main.50052f07.css",
-    "static/js/main.bb593e29.js"
+    "static/js/main.a9bf1a0e.js"
   ]
 }
