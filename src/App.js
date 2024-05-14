@@ -18,7 +18,7 @@ export default class App extends Component {
   render() {
     return (
       <div className="App">
-        <Router>
+        <Router basename={process.env.PUBLIC_URL}>
           <div className="p-5">
             <Header />
           </div>
@@ -46,4 +46,3 @@ export default class App extends Component {
     );
   }
 }
-
