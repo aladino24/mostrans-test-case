@@ -28,16 +28,16 @@ export default class MainPage extends Component {
             <div className={`${this.state.isOpen ? 'show' : ''} collapse navbar-collapse`} id="navbarNav">
               <ul className="navbar-nav me-auto">
                 <li className="nav-item">
-                  <a className="nav-link" href={process.env.PUBLIC_URL + "/location/"}>Locations</a>
+                  <a className="nav-link" href={process.env.PUBLIC_URL + "/location"}>Locations</a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href={process.env.PUBLIC_URL + "/character/"}>Characters</a>
+                  <a className="nav-link" href={process.env.PUBLIC_URL + "/character"}>Characters</a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href={process.env.PUBLIC_URL + "/episode/"}>Episodes</a>
+                  <a className="nav-link" href={process.env.PUBLIC_URL + "/episode"}>Episodes</a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href={process.env.PUBLIC_URL + "/add-location/"}>Custom Location</a>
+                  <a className="nav-link" href={process.env.PUBLIC_URL + "/add-location"}>Custom Location</a>
                 </li>
               </ul>
               <span className="navbar-text">
